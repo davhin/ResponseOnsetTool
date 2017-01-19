@@ -58,6 +58,7 @@ end
 if (PLOTS)
     ts_data = (0:1/fs:(length(data)-1)/fs);
     plot(ts_data, horzcat(data, smoothedData));
+    set(gcf,'Visible', 'off');
     title(filename, 'Interpreter', 'none')
     line([onset onset], [0 max(data)], 'Color', 'k', 'Linewidth', 1);
     line([0 length(data)], [smoothedMean smoothedMean], 'Color', 'r', 'Linewidth', 1);

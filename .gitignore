@@ -1,3 +1,5 @@
 test_local/* 
 *.asv
 .venv/
+.Rproj.user
+packrat/lib*/

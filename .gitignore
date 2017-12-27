@@ -3,3 +3,7 @@ test_local/*
 .venv/
 .Rproj.user
 packrat/lib*/
+data/
+.DS_Store
+packrat/src/
+.Rhistory
